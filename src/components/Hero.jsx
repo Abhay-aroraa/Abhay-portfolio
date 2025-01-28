@@ -15,10 +15,10 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#7c209e]'>AKASH AK</span>
+            Hi, I'm <span className='text-[#7c209e]'>Abhay Phutela</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop Python FullStack  <br className='sm:block hidden' />
+            I develop React  <br className='sm:block hidden' />
             web applications
           </p>
         </div>
