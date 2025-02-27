@@ -37,9 +37,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Sudhin Devan",
+          to_name: "Abhay Phutela",
           from_email: form.email,
-          to_email: "sudhindevan@gmail.com",
+          to_email: "abhayarora071@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -63,6 +63,10 @@ const Contact = () => {
         }
       );
   };
+
+  console.log("Service ID:", import.meta.env.VITE_APP_EMAILJS_SERVICE_ID);
+console.log("Template ID:", import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID);
+console.log("Public Key:", import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY);
 
   return (
     <div

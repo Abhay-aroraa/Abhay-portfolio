@@ -16,8 +16,7 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
-  Stackerbee,
+
   tesla,
   shopify,
   threejs,
@@ -28,6 +27,10 @@ import {
   clearSki,
   chitChat,
 } from "../assets";
+import Stackerbee from "../assets/company/Stackerbee.png"
+import Certificate from "../assets/company/Certificate.png"
+ import otterfresh from "../assets/company/otterfresh.jpg"
+ import BrainWave from "../assets/company/Brain.png"
 
 export const navLinks = [
   {
@@ -45,18 +48,12 @@ export const navLinks = [
 ];
 
 const services = [
-  {
-    title: "Web Developer",
-    icon: web,
-  },
+
   {
     title: "React Developer",
     icon: mobile,
   },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
+
   {
     title: "Content Creator",
     icon: creator,
@@ -92,14 +89,8 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+
+
 
   {
     name: "git",
@@ -109,27 +100,32 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+
 ];
 
 const experiences = [
   {
-    title: "Internship",
-    company_name: "Stackerbee Technologies",
+    title: "React Developer Internship",
+    company_name: "Stackerbee Technologies,Delhi",
     icon: Stackerbee,
     iconBg: "#E6DEDD",
     date: "November 2024 - Present",
     points: [],
   },
   {
-    title: "Certificate",
-    company_name: "Google",
-    icon: tesla,
+    title: "React Developer Certificate",
+    company_name: "Great Learning",
+    icon: Certificate,
     iconBg: "#E6DEDD",
     date: "Aug-2024",
+    points: [],
+  },
+  {
+    title: "Digital Marketing Certificate",
+    company_name: "Google",
+    icon: Certificate,
+    iconBg: "#E6DEDD",
+    date: "july-2024",
     points: [],
   },
   {
@@ -171,16 +167,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "TIME ZEN",
+    name: "Fully Responsive Webpage",
     description:
-      "Timezen is an E-commerce website meticulously crafted with Python Django as the backbone of server-side operations, while PostgreSQL ensures robust and secure data storage. Our platform offers a seamless and enriching shopping experience, coupled with advanced features to elevate your online watch-buying journey.",
+      "The Fully Responsive Webpage is a modern and adaptable web application designed to provide an optimal user experience across all devices, including desktops, tablets, and mobile phones. This project focuses on fluid layouts, flexible grids, and media queries to ensure seamless responsiveness.",
     tags: [
       {
-        name: "Python",
+        name: "Tailwind",
         color: "blue-text-gradient",
       },
       {
-        name: "Django",
+        name: "ReactJs",
         color: "green-text-gradient",
       },
       {
@@ -188,15 +184,44 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "Bootstrap",
+        name: "java script",
         color: "blue-text-gradient",
       },
+      
       {
-        name: "postgres",
+        name: "Vercel",
+        color: "pink-text-gradient",
+      },
+
+    ],
+    image: otterfresh,
+    source_code_link: "https://github.com/Abhay-aroraa/otterfresh.git",
+    live_link: "https://otterfresh-c8by.vercel.app/",
+    features: [
+      "Fully Responsive Design",
+      "Mobile-First Approach .",
+      "Fluid Layouts & Flexible Grids ",
+      "Optimized Images & Lazy Loading –.",
+      "Cross-Browser Compatibility.",
+      "SEO-Friendly Structure.",
+      " Interactive UI Component",
+      "Accessibility Features "
+    ],
+  },
+  {
+    name: "BrainWave",
+    description:
+"    Brainwave - Modern UI/UX website, developed using React.js and Tailwind CSS, exemplifies modern UI/UX principles. Its sleek design, seamless animations, and overall user experience set a high standard, serving as a reference or inspiration for future modern applications or websites in general.",
+    tags: [
+   
+     
+     
+      {
+        name: "ReactJs",
         color: "green-text-gradient",
       },
       {
-        name: "AJAX",
+        name: "CSS",
         color: "pink-text-gradient",
       },
       {
@@ -204,198 +229,44 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Twilio",
-        color: "green-text-gradient",
-      },
-      {
-        name: "RazorPay",
-        color: "pink-text-gradient",
-      },
-      
-      {
-        name: "AWS",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "EC2-Instance",
-        color: "green-text-gradient",
-      },
-      {
-        name: "nginx",
-        color: "green-text-gradient",
-      },
-    ],
-    image: trinity,
-    source_code_link: "/",
-    live_link: "/",
-    features: [
-      "Email verification",
-      "Cart  for saving preffered iteam",
-      "Wish  for saving preffered iteams",
-      "Wallet",
-      "Refferal Programs",
-      "Secure Razorpay payment gateway Integration",
-      "Razorpay Refund & wallet Refund",
-    ],
-  },
-  {
-    name: "Pixel Hub",
-    description:
-      " e-learning platform project for digital media course.This platform, powered by React and Python Django facilitates a smooth and engaging learning experience for users. It offers a user-friendly interface with features like course submission and admin approval allowing content creators to share their expertise while ensuring high-quality course offerings",
-    tags: [
-      {
-        name: "Python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Django",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "RestApi",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "SweetAlert ",
-        color: "pink-text-gradient",
-      },
-      
-      {
         name: "Tailwind",
         color: "green-text-gradient",
       },
+    
       {
-        name: "Postgres",
-        color: "pink-text-gradient",
+        name: "Figma",
+        color: "blue-text-gradient",
       },
-      
-     {
-        name: "Stripe",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "AWS",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Chanels",
-        color: "green-text-gradient",
-      },
+    
+    
+     
       {
         name: "Vercel",
         color: "pink-text-gradient",
       },
-      {
-        name: "Route53",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: runInStyle,
-    source_code_link: "/",
-    live_link: "/",
-    features: [
-      "email verification",
-      "Real time notification",
-      "chat with users and vendor",
-      "Secure Stripe payment gateway Integration",
-      "Animations",
-      "Change Password and reset password",
-      "Mobile responsive"
      
-      
     ],
-  },
-  
- 
- 
-  {
-    name: "Netflix clone",
-    description:
-      "This is a post login Netflix clone. a React-based mini-project developed for learning purposes. In this exciting project, I've utilized data from the tmdb database to showcase a collection of movies. Explore the world of cinema right from this clone and enjoy the movie trailers of your favorite films!",
-    tags: [
-      {
-        name: "React.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Axios ",
-        color: "green-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "React YouTube",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "DOM",
-        color: "green-text-gradient",
-      },
-      {
-        name: "API",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: netflix,
-    source_code_link: "/",
-    live_link: "/",
+    image: BrainWave,
+    source_code_link: "https://github.com/Abhay-aroraa/Ai-chatbox-.git",
+    live_link: "https://ai-chatbox-theta.vercel.app/",
     features: [
-      "Used advaced CSS for styling",
-      "Used TMDB API for movie datas",
-      "Mobile responsive",
+    "Beautiful Sections",
+
+      "👉 **Parallax Animations**:", 
+      
+      "👉 **Complex UI Geometry**",
+      
+      "👉 **Latest UI Trends**",
+      
+      "👉 **Cool Gradients**",
+      
+      "👉 **Responsive**",
+      
+      "👉** architecture and reusability**",
+
+
     ],
   },
-
-
-  {
-    name: "Quiz Mater",
-    description:
-      "Quiz Master is a web application designed to provide an engaging and interactive quiz-taking experience. It leverages the power of Django and React.js to create a robust and feature-rich platform. Here are some of the key features and functionalities of your project:",
-    tags: [
-      {
-        name: "React.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Axios ",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind CSS",
-        color: "pink-text-gradient",
-      },
-      
-      
-      {
-        name: "API",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: chitChat,
-    source_code_link: "/",
-    live_link: "/",
-    features: [
-      "Used Tailwind CSS for styling",
-      "Email verification",
-      "Mobile responsive",
-      "Each quiz question is equipped with a timer"
-    ],
-  },
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -47,10 +47,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify"
       >
-      I am a self-taught Python Full Stack developer with a background in Electronics and Communication Engineering. I have created two robust web applications and completed more than five mini-projects, which have not only improved my technical skills but also honed my ability to deliver high-quality work within tight deadlines. My forte lies in developing captivating and persuasive websites that genuinely connect with users. I take pride in my track record of delivering outstanding results.
-      </motion.p>
+        I am a Frontend Developer with a strong focus on building responsive websites that provide seamless and engaging user experiences. Specializing in React, I have worked extensively on developing dynamic, user-friendly interfaces for management systems such as Gym Management and Doctor Appointment Management Systems. My expertise lies in creating intuitive and visually appealing web applications that adapt to various devices and screen sizes.
 
-      <div className="mt-20 flex flex-wrap gap-10">
+        With hands-on experience in frontend technologies, I am passionate about crafting responsive layouts, optimizing performance, and ensuring a smooth user experience across platforms. I am always eager to learn new techniques and stay up-to-date with the latest trends in frontend development to deliver high-quality web solutions.      </motion.p>
+
+      <div className="mt-20 flex items-center flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
