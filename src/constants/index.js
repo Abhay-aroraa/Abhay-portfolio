@@ -16,7 +16,7 @@ import {
   figma,
   docker,
   meta,
-
+ 
   tesla,
   shopify,
   threejs,
@@ -31,6 +31,7 @@ import Stackerbee from "../assets/company/Stackerbee.png"
 import Certificate from "../assets/company/Certificate.png"
  import otterfresh from "../assets/company/otterfresh.jpg"
  import BrainWave from "../assets/company/Brain.png"
+ import  wonderla from "../assets/company/wonderla.png"
 
 export const navLinks = [
   {
@@ -307,7 +308,7 @@ const projects = [
       },
 
     ],
-    image: otterfresh,
+    image: wonderla,
     source_code_link: "https://github.com/Abhay-aroraa/Wonderlaa.git",
     live_link: "https://wonderlaa-abhay-aroraas-projects.vercel.app/",
     features: [
