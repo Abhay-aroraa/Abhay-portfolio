@@ -267,6 +267,60 @@ const projects = [
 
     ],
   },
+  {
+    name: "🎢 Wonderla-Inspired Ride Explorer ",
+    description:
+      "This project is a visually engaging and interactive ride exploration UI, inspired by the popular amusement park Wonderla. It is built using React.js and Tailwind CSS, and designed to offer users an immersive experience to browse through different categories of rides such as Land Rides, Water Rides, and Kids Rides.",
+    tags: [
+      {
+        name: "Tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ReactJs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "java script",
+        color: "blue-text-gradient",
+      },
+      
+      {
+        name: "Vercel",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Framer Motion",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Animation",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Lucide React",
+        color: "pink-text-gradient",
+      },
+
+    ],
+    image: otterfresh,
+    source_code_link: "https://github.com/Abhay-aroraa/Wonderlaa.git",
+    live_link: "https://wonderlaa-abhay-aroraas-projects.vercel.app/",
+    features: [
+      "Framer Motion",
+      "Curve Sidebar.",
+      "Scrolling ",
+      "Animation–.",
+      "Cross-Browser Compatibility.",
+      "SEO-Friendly Structure.",
+      " Interactive UI Component",
+      "Accessibility Features "
+    ],
+  },
 
 
 
